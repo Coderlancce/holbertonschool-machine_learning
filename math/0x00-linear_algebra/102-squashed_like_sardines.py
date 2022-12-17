@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Module that concatenates two matrices
+That concatenates two matrices along a specific axis:
 """
 
 
