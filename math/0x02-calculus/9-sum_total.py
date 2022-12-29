@@ -8,14 +8,11 @@ def summation_i_squared(n):
     """
     Need a limit for the sigma function
     """
-    i = 1
-    sum = 0
-
     if (type(n) is not int) or (n is None) or (n < 1):
         return None
 
-    while (i != n + 1):
-        sum = sum + i**2
-        i += 1
-
-    return sum
+    else:
+        limit = range(1, n + 1)
+        sigma = 0
+        sigma = map(lambda i: i ** 2, limit)
+        return sum(sigma)
